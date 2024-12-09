@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en" class="invitation-closed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joeroz Vicariato">
+    <title>Joshua and Charlotte</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <!-- CSS Bootstrap & Fontawesome-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <!-- JavaScript Bootstrap -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/fontawesome-all.min.js"></script>
+    <!-- CSS Main -->
+    <link href="assets/css/winner.css" rel="stylesheet" />
+    <!-- JS Main -->
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript">
+        function playMusic() {
+            var music = document.getElementById("music");
+            var icon = document.getElementById("music-icon");
+            if (music.duration > 0 && !music.paused) {
+                music.pause();
+                icon.classList.remove("fa-pause");
+                icon.classList.add("fa-play");
+            } else {
+                music.play();
+                icon.classList.remove("fa-play");
+                icon.classList.add("fa-pause");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Background Music -->
+    <audio id="music" src="music/osg_E_015.mp3" autoplay loop></audio>
+    <!-- Modal Gift-->
+    <div class="modal fade modal-gift" id="modal_gift" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Send Gift</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/gift-box.png" alt="gift" width="30">
+                    <h5>Send Gift for Feriyal and Winda</h5>
+                    <div class="list-gift">
+                        <div class="list-gift__col gift-icon">
+                            <div class="payment mandiri"></div>
+                        </div>
+                        <div class="list-gift__col">
+                            <span>09763447182</span>
+                            <span>Joshua and Charlotte</span>
+                        </div>
+                    </div>
+                    <div class="list-gift">
+                        <div class="list-gift__col gift-icon">
+                            <div class="payment bca"></div>
+                        </div>
+                        <div class="list-gift__col">
+                            <span>09763447182</span>
+                            <span>Joshua and Charlotte</span>
+                        </div>
+                    </div>
+                    <div class="list-gift">
+                        <div class="list-gift__col gift-icon">
+                            <img src="./assets/img/house.png" alt="img" width="35">
+                        </div>
+                        <div class="list-gift__col">
+                            <span><b>09763447182</b></span>
+                            <span>Joshua and Charlotte</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start:: wedding gift -->
+    <a href="javascript:void(0)" class="button-gift" data-bs-toggle="modal" data-bs-target="#modal_gift">
+        <img src="assets/img/gift-box.png" alt="gift">
+        Send Gift
+    </a>
+    <a href="javascript:void(0)" onclick="playMusic()" class="float">
+        <i id="music-icon" class="fa fa-pause"></i>
+    </a>
+    <!-- end:: wedding gift -->
+
+    <!-- end:: wedding gift -->
+    <!-- cover -->
+    <section class="wf-section wf-section__cover" id="invitation_cover">
+        <div class="container">
+            <div class="row wf-top-header" data-aos="fade-zoom-in" data-aos-duration="3000">
+                <div class="col">
+                    <h2>The Wedding Of</h2>
+                    <div class="header-name">
+                        <h1>Joshua &nbsp;&&nbsp; Charlotte</h1>
+                        <h1>Joshua &nbsp;&&nbsp; Charlotte</h1>
+                    </div>
+                    <h4>3 February 2025</h4>
+                    <p>
+                        <i>For You</i>
+                    </p>
+                    <h3 id="user">
+                        ''
+                        <span id="from"></span>
+                    </h3>
+                    <script>
+                        var url_string = window.location.href;
+                        var url = new URL(url_string);
+                        var c = url.searchParams.get("name");
+                        var d = url.searchParams.get("from");
+                        user.firstChild.data = c;
+                        document.getElementById("from").textContent = d;
+                    </script>
+                    <p>With Fully Respect, We Humbly Invite You to Our Wedding.</p>
+                    <a href="#" class="btn-open" onclick="playMusic()">Open Invitation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- page -->
+    <div class="page-invitation">
+        <section class="wf-section wf-section__cover" id="page_cover">
+            <div class="container">
+                <div class="row wf-top-header" data-aos="fade-zoom-in" data-aos-duration="3000">
+                    <div class="col">
+                        <h2>The Wedding Of</h2>
+                        <div class="header-name">
+                            <h1>Joshua &nbsp;&&nbsp; Charlotte</h1>
+                            <h1>Joshua &nbsp;&&nbsp; Charlotte</h1>
+                        </div>
+                        <h4>3 February 2024</h4>
+                        <p>
+                            <i>For You</i>
+                        </p>
+                        <h3 id="user2">
+                            ''
+                            <span id="from2"></span>
+                        </h3>
+                        <script>
+                            var url_string = window.location.href;
+                            var url = new URL(url_string);
+                            var c = url.searchParams.get("name");
+                            var d = url.searchParams.get("from");
+                            user2.firstChild.data = c;
+                            document.getElementById("from2").textContent = d;
+                        </script>
+                        <p>With Fully Respect, We Humbly Invite You to Our Wedding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wf-section text-center" id="section-bride">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p data-aos="fade-up">
+                         123
+                            <br />
+                            <br />
+                            BSIN
+                            <br />
+                            123
+                        </p>
+                        <div class="wf-bride-row">
+                            <div class="wf-bride-col" data-aos="fade-right" data-aos-duration="4000">
+                                <div class="wf-bride-desc">
+                                    <img src="assets/img/JOSHUA.png" alt="img">
+                                    <div class="name-double">
+                                        <h1>Joshua C.Torres</h1>
+                                        <h1>Joshua C.Torres</h1>
+                                    </div>
+                                    <p>
+                                        2nd Son of the couple <br>
+                                        <b>Mr. Aquino & Mrs. Fee Torres</b>
+                                    </p>
+                                    <span>Instagram</span>
+                                    <div class="list-sosmed">
+                                        <a href="https://www.instagram.com/feriyalsusanto/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wf-bride-middle" data-aos="zoom-in">
+                                <img src="./assets/img/dove.png" alt="image" width="35">
+                            </div>
+                            <div class="wf-bride-col" data-aos="fade-left" data-aos-duration="4000">
+                                <div class="wf-bride-desc">
+                                    <img src="https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.6435-9/171264983_295774281927080_2645066692607491967_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=20ims3Y7hFkQ7kNvgG7De74&_nc_zt=23&_nc_ht=scontent.fmnl9-1.fna&_nc_gid=Aq43mWMd63iPS-jzGPnHiAk&oh=00_AYAd83L1Ogfu_R_jl59fkGZypos0hG-4BChWfv3oTO6LIw&oe=677E6941" alt="img">
+                                    <div class="name-double">
+                                        <h1>Charlotte V.Banac</h1>
+                                        <h1>Charlotte V.Banac</h1>
+                                    </div>
+                                    <p>
+                                        1st Daughter of the couple <br>
+                                        <b>Mr. Ronie & Mrs. Gina Banac</b>
+                                    </p>
+                                    <span>instagram</span>
+                                    <div class="list-sosmed">
+                                        <a href="https://instagram.com/windapra" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-shape-divider-bottom">
+                <img src="./assets/img/sparator-1.svg" alt="">
+            </div>
+        </section>
+        <section class="wf-section text-center" id="section-schedule" data-aos="fade-up">
+            <div class="custom-shape-divider-top">
+                <img src="./assets/img/sparator-1.svg" alt="">
+            </div>
+            <div class="d-table mx-auto">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title-section">Wedding Schedule</h2>
+                        <div class="wf-schedule-row">
+                            <div class="wf-schedule-col" data-aos="flip-left" data-aos-duration="2000">
+                                <div class="wf-schedule-content">
+                                    <div class="wf-schedule-header">
+                                        <div class="wf-schedule-header__col">
+                                            <h5>
+                                                February
+                                                2025
+                                            </h5>
+                                        </div>
+                                        <div class="wf-schedule-header__col">
+                                            <h5>
+                                                <span>3</span>
+                                                Monday
+                                            </h5>
+                                       
+                                        </div>
+                                    </div>
+                                    <div class="wf-schedule-desc">
+                                        <h1>The Marriage</h1>
+                                        <p class="m-0">
+                                            8AM - 9AM<br />
+                    
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wf-schedule-col" data-aos="flip-up" data-aos-duration="2000">
+                                <div class="wf-schedule-content">
+                                    <div class="wf-schedule-header">
+                                        <div class="wf-schedule-header__col">
+                                            <h5>
+                                                February
+                                                2025
+                                            </h5>
+                                        </div>
+                                        <div class="wf-schedule-header__col">
+                                            <h5>
+                                                <span>3</span>
+                                              Monday
+                                            </h5>
+                                        </div>
+                                        <div class="wf-schedule-header__col">
+                                            <h5>
+                                               
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div class="wf-schedule-desc">
+                                        <h1>Reception</h1>
+                                        <p class="m-0">
+                                            3PM - 6PM<br />
+                                            Mt. Pines Spring Resort
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                  
+                <div class="row-countdown" data-aos="flip-down" data-aos-duration="2000">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="title-section">Countdown</h2>
+                            <div class="wf-countdown">
+                                <div class="wf-countdown-col">
+                                    <div class="wf-countdown-content">
+                                        <h5 id="wf-hari">30</h5>
+                                        <span>Days</span>
+                                    </div>
+                                </div>
+                                <div class="wf-countdown-col">
+                                    <div class="wf-countdown-content">
+                                        <h5 id="wf-jam">30</h5>
+                                        <span>Hours</span>
+                                    </div>
+                                </div>
+                                <div class="wf-countdown-col">
+                                    <div class="wf-countdown-content">
+                                        <h5 id="wf-menit">30</h5>
+                                        <span>Minutes</span>
+                                    </div>
+                                </div>
+                                <div class="wf-countdown-col">
+                                    <div class="wf-countdown-content">
+                                        <h5 id="wf-detik">30</h5>
+                                        <span>Seconds</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wf-section" id="section-location" data-aos="fade-up" data-aos-duration="2000">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.586064951079!2d124.84758036075974!3d8.220958850551497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32a5487a1c8b18b9%3A0xcacb9c0d7b9e5a99!2sMt.%20Pines%20Resort!5e0!3m2!1sen!2sph!4v1696972729106!5m2!1sen!2sph"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        
+        
+        <section class="wf-section" id="section-story-slide" data-aos="zoom-in-up">
+            <div class="story-content">
+                <div class="story-carousel owl-theme owl-carousel">
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-shadow.png');">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                Our First Meet
+                            </h1>
+                            <div class="story-desc">
+                                <p>Hello everyone. Let us tell you about our love story.
+                                    We met each other in the collage at the same class.
+                                    He was the first to message me. Like classmates as usual, we just exchange messages
+                                    about lectures.
+                                </p>
+                                <img src="./assets/img/kampus2.png" alt="img">
+                            </div>
+                            <span class="story-date">2016 - Agustus</span>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-cover.png');" id="story_feriyal">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                Feriyal's First Impression
+                            </h1>
+                            <div class="story-desc">
+                                <div class="bride-icon">
+                                    <img src="./assets/img/groom.png" alt="img">
+                                </div>
+                                <p>
+                                    I like her because she’s talk active and has a beautiful smile, and of course she’s
+                                    beautiful.
+                                    We have the same hobby, especially in music taste (Rock / Metal). I like food, she’s
+                                    like too, so we often go out for food and exploring the culinary in Malang.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-cover.png');" id="story_winda">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                Winda's First Impression
+                            </h1>
+                            <div class="story-desc">
+                                <div class="bride-icon">
+                                    <img src="./assets/img/bride.png" alt="img">
+                                </div>
+                                <p>I like him because he's quiet, and has a beautiful eyes (slanted eyes).
+                                    We always has a topics to be talked, and we also love food, so we often go out for
+                                    food.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-shadow.png');">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                We're Dating
+                            </h1>
+                            <div class="story-desc">
+                                <p>
+                                    I forgot how it’s started, but at that time our communication is intense.
+                                    He invited me to try the matcha dessert he liked, and it was our first date.
+                                    After a long journey, we decided to dating each other.
+                                </p>
+                                <img src="./assets/img/dating.png" alt="img">
+                            </div>
+                            <span class="story-date">2016 - November</span>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-campus.png');">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                We Broke Up
+                            </h1>
+                            <div class="story-desc">
+                                <div class="bride-icon">
+                                    <img src="./assets/img/divorce.png" alt="img">
+                                </div>
+                                <p>
+                                    At that moment, we felt that we just cannot continue our relationship.
+                                    So, we decided to continue to walk different path.
+                                    But, we still contacted each other and maintain a good relationship as friend.
+                                </p>
+                                <img src="./assets/img/broke.png" alt="img">
+                            </div>
+                            <span class="story-date">Late, 2018</span>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-back.png'); background-position: 45%;">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                He's Back
+                            </h1>
+                            <div class="story-desc">
+                                <p class="m-0">
+                                    He’s came back and propose me.
+                                </p>
+                                <p class="quotes">“Whatever the situation, no matter how far the distance is, if it is a
+                                    soulmate, you will definitely meet again.”</p>
+                                <p>
+                                    Around 3 years we broke up, and we decided to get engaged, it’s our biggest decision
+                                    that we haven't made before, we never expected this decision to come sooner,
+                                    sometimes
+                                    there are so many questions in our head that we’ve made a good decision or not.
+                                    But, we don't know how to tell you what we felt. The point is we felt happy.
+                                </p>
+                                <img src="./assets/img/back.png" alt="img">
+                            </div>
+                            <span class="story-date">2021 - December</span>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-ring.png');">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                We're Engaged
+                            </h1>
+                            <div class="story-desc">
+                                <p>
+                                    We are officially engaged. He comes to my home with his family.
+                                    This is the current happiest moment in my life, because we’ve been through a lot of
+                                    story start from friend, lover and now he’ll become my one and only partner in my
+                                    life.
+                                </p>
+                                <div class="gallery-engaged">
+                                    <img src="./assets/img/engaged1.png" alt="img">
+                                    <img src="./assets/img/engaged2.png" alt="img">
+                                    <img src="./assets/img/engaged3.png" alt="img">
+                                </div>
+                            </div>
+                            <span class="story-date">2022 - February</span>
+                        </div>
+                    </div>
+                    <div class="slide-item" style="background-image: url('./assets/img/bg-wedding.png'); background-position: 52%;">
+                        <div class="story-item">
+                            <h2 class="title-section">Our Love Story</h2>
+                            <h1 class="story-name">
+                                The End and The New Start
+                            </h1>
+                            <div class="story-desc">
+                                <div class="bride-icon">
+                                    <img src="./assets/img/wedding-couple.png" alt="img">
+                                </div>
+                                <p>
+                                    Finally we decided to get marry.
+                                    We believe that this is the best decisions.
+                                    And we hope that we can be each other strengths and weaknesses and growing up to be
+                                    a
+                                    better person.
+                                </p>
+                            </div>
+                            <span class="story-date">2022 - July</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wf-section" id="section-gallery" data-aos="fade-down">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="title-section">Our Gallery</h2>
+                        <div class="photo-gallery-wrapper">
+                            <a href="./assets/img/gallery6.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery6.jpg">
+                            </a>
+                            <a href="./assets/img/gallery2.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item img-landscape">
+                                <img src="./assets/img/gallery2.jpg">
+                            </a>
+                            <a href="./assets/img/gallery5.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery5.jpg">
+                            </a>
+                            <a href="./assets/img/gallery3.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item img-landscape">
+                                <img src="./assets/img/gallery3.jpg">
+                            </a>
+                            <a href="./assets/img/gallery0.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery0.jpg">
+                            </a>
+                            <a href="./assets/img/gallery4.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item img-landscape">
+                                <img src="./assets/img/gallery4.jpg">
+                            </a>
+                            <a href="./assets/img/gallery7.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery7.jpg">
+                            </a>
+                            <a href="./assets/img/gallery8.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery8.jpg">
+                            </a>
+                            <a href="./assets/img/gallery9.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery9.jpg">
+                            </a>
+                            <a href="./assets/img/gallery1.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                                class="img-item">
+                                <img src="./assets/img/gallery1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wf-section" id="section-quotes">
+            <div class="custom-shape-divider-top">
+                <img src="./assets/img/sparator-1.svg" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="quotes-arab">
+                            <p dir="rtl" lang="ar" class="arabic">123</p>
+                            <p>&#8220;bsin&#8221;</p>
+                            <span>ambot</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
+</body>
+
+</html>
