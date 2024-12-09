@@ -54,7 +54,7 @@ body {
   font-size: 15px;
   position: relative;
   color: #232323;
-  background-color: #fdf8eb;
+  background-color: #191970; /* Changed to midnight blue */
 }
 
 .container {
@@ -433,7 +433,7 @@ html.invitation-closed body {
 
 .wf-bride-row .wf-bride-desc {
   background-color: #FFFFFF;
-  border: 1px solid #fdf8eb;
+  border: 1px solid #003366;
   padding: 15px;
   border-radius: 16px;
   height: 100%;

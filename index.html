@@ -8,6 +8,7 @@
     <meta name="author" content="Joeroz Vicariato">
     <title>Joshua and Charlotte</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <!-- CSS Bootstrap & Fontawesome-->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -57,7 +58,7 @@
                 </div>
                 <div class="modal-body">
                     <img src="assets/img/gift-box.png" alt="gift" width="30">
-                    <h5>Send Gift for Feriyal and Winda</h5>
+                    <h5>Send Gift for Joshua and Charlotte</h5>
                     <div class="list-gift">
                         <div class="list-gift__col gift-icon">
                             <div class="payment mandiri"></div>
@@ -99,7 +100,6 @@
     </a>
     <!-- end:: wedding gift -->
 
-    <!-- end:: wedding gift -->
     <!-- cover -->
     <section class="wf-section wf-section__cover" id="invitation_cover">
         <div class="container">
@@ -173,7 +173,7 @@
                 <div class="row">
                     <div class="col">
                         <p data-aos="fade-up">
-                         123
+                            123
                             <br />
                             <br />
                             BSIN
@@ -253,14 +253,12 @@
                                                 <span>3</span>
                                                 Monday
                                             </h5>
-                                       
                                         </div>
                                     </div>
                                     <div class="wf-schedule-desc">
                                         <h1>The Marriage</h1>
                                         <p class="m-0">
                                             8AM - 9AM<br />
-                    
                                         </p>
                                     </div>
                                 </div>
@@ -277,12 +275,11 @@
                                         <div class="wf-schedule-header__col">
                                             <h5>
                                                 <span>3</span>
-                                              Monday
+                                                Monday
                                             </h5>
                                         </div>
                                         <div class="wf-schedule-header__col">
                                             <h5>
-                                               
                                             </h5>
                                         </div>
                                     </div>
@@ -295,50 +292,46 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                                  
-                <div class="row-countdown" data-aos="flip-down" data-aos-duration="2000">
-                    <div class="row">
-                        <div class="col">
-                            <h2 class="title-section">Countdown</h2>
-                            <div class="wf-countdown">
-                                <div class="wf-countdown-col">
-                                    <div class="wf-countdown-content">
-                                        <h5 id="wf-hari">30</h5>
-                                        <span>Days</span>
-                                    </div>
-                                </div>
-                                <div class="wf-countdown-col">
-                                    <div class="wf-countdown-content">
-                                        <h5 id="wf-jam">30</h5>
-                                        <span>Hours</span>
-                                    </div>
-                                </div>
-                                <div class="wf-countdown-col">
-                                    <div class="wf-countdown-content">
-                                        <h5 id="wf-menit">30</h5>
-                                        <span>Minutes</span>
-                                    </div>
-                                </div>
-                                <div class="wf-countdown-col">
-                                    <div class="wf-countdown-content">
-                                        <h5 id="wf-detik">30</h5>
-                                        <span>Seconds</span>
+                        </div>
+                        <div class="row-countdown" data-aos="flip-down" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col">
+                                    <h2 class="title-section">Countdown</h2>
+                                    <div class="wf-countdown">
+                                        <div class="wf-countdown-col">
+                                            <div class="wf-countdown-content">
+                                                <h5 id="wf-hari">30</h5>
+                                                <span>Days</span>
+                                            </div>
+                                        </div>
+                                        <div class="wf-countdown-col">
+                                            <div class="wf-countdown-content">
+                                                <h5 id="wf-jam">30</h5>
+                                                <span>Hours</span>
+                                            </div>
+                                        </div>
+                                        <div class="wf-countdown-col">
+                                            <div class="wf-countdown-content">
+                                                <h5 id="wf-menit">30</h5>
+                                                <span>Minutes</span>
+                                            </div>
+                                        </div>
+                                        <div class="wf-countdown-col">
+                                            <div class="wf-countdown-content">
+                                                <h5 id="wf-detik">30</h5>
+                                                <span>Seconds</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <section class="wf-section" id="section-location" data-aos="fade-up" data-aos-duration="2000">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.586064951079!2d124.84758036075974!3d8.220958850551497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32a5487a1c8b18b9%3A0xcacb9c0d7b9e5a99!2sMt.%20Pines%20Resort!5e0!3m2!1sen!2sph!4v1696972729106!5m2!1sen!2sph"
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <div id="map" style="width: 100%; height: 400px;"></div>
         </section>
-        
         
         <section class="wf-section" id="section-story-slide" data-aos="zoom-in-up">
             <div class="story-content">
@@ -355,12 +348,12 @@
                                     He was the first to message me. Like classmates as usual, we just exchange messages
                                     about lectures.
                                 </p>
-                                <img src="./assets/img/kampus2.png" alt="img">
+                                <img src="IMG/1.jpg" alt="img">
                             </div>
                             <span class="story-date">2016 - Agustus</span>
                         </div>
                     </div>
-                    <div class="slide-item" style="background-image: url('./assets/img/bg-cover.png');" id="story_feriyal">
+                    <div class="slide-item" style="background-image: url('../IMG/3.jpg');" id="story_feriyal">
                         <div class="story-item">
                             <h2 class="title-section">Our Love Story</h2>
                             <h1 class="story-name">
@@ -368,7 +361,7 @@
                             </h1>
                             <div class="story-desc">
                                 <div class="bride-icon">
-                                    <img src="./assets/img/groom.png" alt="img">
+                                    <img src="IMG/3.jpg" alt="img">
                                 </div>
                                 <p>
                                     I like her because she’s talk active and has a beautiful smile, and of course she’s
@@ -379,7 +372,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slide-item" style="background-image: url('./assets/img/bg-cover.png');" id="story_winda">
+                    <div class="slide-item" style="background-image: url('../../assets/img/WEDDING.png');" id="story_winda">
                         <div class="story-item">
                             <h2 class="title-section">Our Love Story</h2>
                             <h1 class="story-name">
@@ -408,7 +401,7 @@
                                     He invited me to try the matcha dessert he liked, and it was our first date.
                                     After a long journey, we decided to dating each other.
                                 </p>
-                                <img src="./assets/img/dating.png" alt="img">
+                                <img src="IMG/3.jpg" alt="img">
                             </div>
                             <span class="story-date">2016 - November</span>
                         </div>
@@ -509,7 +502,7 @@
                     <div class="col">
                         <h2 class="title-section">Our Gallery</h2>
                         <div class="photo-gallery-wrapper">
-                            <a href="./assets/img/gallery6.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
+                            <a href=".IMG/1.jpg" data-toggle="lightbox" data-gallery="photo-gallery"
                                 class="img-item">
                                 <img src="./assets/img/gallery6.jpg">
                             </a>
@@ -573,6 +566,67 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
-</body>
 
-</html>
+   <!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+    class LeafletMap {
+        constructor(containerId, center, zoom) {
+            // Initialize the map with the given container, center, and zoom level
+            this.map = L.map(containerId).setView(center, zoom);
+            this.initTileLayer();
+            this.addMarker(center[0], center[1], "Mt. Pines Spring and Resort"); // Add marker for Mt. Pines
+        }
+
+        initTileLayer() {
+            // Add OpenStreetMap tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(this.map);
+        }
+
+        addMarker(lat, lng, message) {
+            // Create a custom icon
+            const customIcon = L.icon({
+                iconUrl: 'IMG/1.jpg', // Update with the path to your image
+                iconSize: [100, 100], // Size of the icon
+                iconAnchor: [19, 38], // Point of the icon which will correspond to marker's location
+                popupAnchor: [0, -38] // Point from which the popup should open relative to the iconAnchor
+            });
+
+            // Add a marker to the map with the custom icon and a popup message
+            const marker = L.marker([lat, lng], { icon: customIcon }).addTo(this.map);
+            marker.bindPopup(message);
+        }
+
+        loadMarkersFromJson(url) {
+            // Fetch the markers data from the provided JSON URL
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Loop through each marker in the data and add it to the map
+                    data.forEach(marker => {
+                        if (marker.latitude && marker.longitude && marker.message) {
+                            this.addMarker(marker.latitude, marker.longitude, marker.message);
+                        } else {
+                            console.warn('Invalid marker data:', marker);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading markers:', error));
+        }
+    }
+
+    // Initialize the map with a specific container ID, center, and zoom level
+    const myMap = new LeafletMap('map', [8.219139, 124.847732], 16);
+
+    // Optionally load markers from a JSON file (commented out if not needed)
+    // myMap.loadMarkersFromJson('path/to/your/markers.json'); // Update the path to your JSON file
+</script>
